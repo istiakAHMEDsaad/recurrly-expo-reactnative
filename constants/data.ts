@@ -8,12 +8,12 @@ export const tabs: AppTab[] = [
 ];
 
 export const HOME_USER = {
-  name: "Ketu Parker",
+  name: "Peter Pan",
 };
 
 export const HOME_BALANCE = {
-  amount: 2489.48,
-  nextRenewalDate: "2026-08-30T09:00:00.000Z",
+  amount: 2089.71,
+  nextRenewalDate: "2026-10-10T09:00:00.000Z",
 };
 
 export const UPCOMING_SUBSCRIPTIONS: UpcomingSubscription[] = [
@@ -93,6 +93,21 @@ export const HOME_SUBSCRIPTIONS: Subscription[] = [
     id: "canva-pro",
     icon: icons.canva,
     name: "Canva Pro",
+    plan: "Yearly Access",
+    category: "Design",
+    paymentMethod: "Visa ending in 7784",
+    status: "cancelled",
+    startDate: "2024-04-02T10:00:00.000Z",
+    price: 119.99,
+    currency: "USD",
+    billing: "Yearly",
+    renewalDate: "2026-04-02T10:00:00.000Z",
+    color: "#b8e8d0",
+  },
+  {
+    id: "test-1",
+    icon: icons.canva,
+    name: "Test Pro",
     plan: "Yearly Access",
     category: "Design",
     paymentMethod: "Visa ending in 7784",
